@@ -1,0 +1,36 @@
+{
+  "name": "tasks-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "datatables": "^1.10.13",
+    "dom-tools": "^0.1.4",
+    "font-awesome": "^4.7.0",
+    "icheck": "^1.0.2",
+    "inspinia": "^2.6.5",
+    "jquery": "^3.1.1",
+    "jquery-slimscroll": "^1.3.6",
+    "localforage": "^1.7.1",
+    "material-ui": "^0.20.0",
+    "metismenu": "^2.5.0",
+    "pace": "0.0.4",
+    "react": "^16.3.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.0",
+    "react-dropzone": "^4.2.9",
+    "react-pace": "^1.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.2",
+    "reactstrap": "^5.0.0-beta.3",
+    "select2": "^4.0.6-rc.1",
+    "sweetalert2-react": "^0.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

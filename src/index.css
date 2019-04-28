@@ -1,0 +1,111 @@
+
+
+.back-btn {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.back-btn-container {
+  margin-bottom: 50px;
+}
+
+.back-btn:hover {
+  font-size: 20px;
+  color: #ededed;
+  text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-landing-intro {
+  text-align: center;
+  /*margin: 20px 25%;*/
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .app-landing-intro {
+    margin: 0;
+  }
+
+}
+
+.app-landing-intro-p {
+
+}
+
+#status-box-container {
+  text-align: center;
+  margin: 20% auto;
+  /*display: flex;*/
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-box {
+  /*height: 150px;*/
+  /*width: 155px;*/
+  /*margin-left: 2px;*/
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+  background-color: #f1f1f1;
+  height: 150px;
+  width: 155px;
+  text-align: center;
+  /*line-height: 75px;*/
+  /*font-size: 30px;*/
+}
+
+.rmlink {
+  text-decoration: none!important;
+  margin: 5px;
+}
+
+#status-box-container .status-box {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#status-box-container .status-box span {
+  display: block;
+  padding: 10px;
+}
+
+#status-box-container .status-box .fa-user-icon {
+  font-size: 80px;
+}
+
+.status-box1 {
+  background: -webkit-linear-gradient(-180deg, rgb(0, 113, 255), rgb(18, 52, 85));
+  background: linear-gradient(-180deg, rgb(0, 113, 255), rgb(18, 52, 85));
+  color:#ffffff;
+}
+
+.status-box2 {
+  background: -webkit-linear-gradient(-180deg, rgb(248, 255, 0), rgb(85, 58, 18));
+  background: linear-gradient(-180deg, rgb(248, 255, 0), rgb(85, 58, 18));
+  color:#ffffff;
+}
+
+.status-box3 {
+  background: -webkit-linear-gradient(-180deg, rgb(0, 255, 119), rgb(18, 85, 35));
+  background: linear-gradient(-180deg, rgb(0, 255, 119), rgb(18, 85, 35));
+  color:#ffffff;
+}
+
+.status-box4 {
+  background: -webkit-linear-gradient(145deg, rgb(8, 238, 246), rgb(4, 4, 4));
+  background: linear-gradient(145deg, rgb(8, 238, 246), rgb(4, 4, 4));
+  color:#ffffff;
+}
